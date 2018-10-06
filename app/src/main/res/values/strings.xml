@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MEDIBOT</string>
+    <string name="MEDIBOT">WELCOME TO MEDIBOT</string>
+    <string name="password">PASSWORD</string>
+    <string name="email">EMAIL</string>
+    <string name="have_account">Already have Account</string>
+    <string name="need_account">Need a New Account?</string>
+    <string name="create_act">Create a New Account</string>
+    <string name="doc">Login as a doctor</string>
+    <string name="patient">Login as a patient</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "443168613671",
+    "firebase_url": "https://helloworld-b12ca.firebaseio.com",
+    "project_id": "helloworld-b12ca",
+    "storage_bucket": "helloworld-b12ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443168613671:android:4bc72c92deae4fad",
+        "android_client_info": {
+          "package_name": "com.example.vismay.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443168613671-tn0s35l344p1cn283nmd8ltsr2slt29f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vismay.helloworld",
+            "certificate_hash": "482effdf0c23bf6a09a7320b0329b58b6059d9d1"
+          }
+        },
+        {
+          "client_id": "443168613671-usbt38uie79ib0dfg2isveh8oe48n6g1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2c-_Vh4BoZF-xzV0BoQTuIfRTIoQgNSE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443168613671-usbt38uie79ib0dfg2isveh8oe48n6g1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
