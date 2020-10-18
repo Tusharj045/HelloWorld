@@ -5,14 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
 
-public class CreateAcc extends AppCompatActivity {
+public class CreateAcc extends AppCompatActivity {          // Account Creation of Person
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_acc);
     }
-    public void register_username_func(View v)
+    public void register_username_func(View v)      // when registering the person
     {
         EditText reguse=(EditText) findViewById(R.id.register_username);
         reguse.setText("");
