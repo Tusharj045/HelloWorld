@@ -14,20 +14,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        FirebaseDatabase database = FirebaseDatabase.getInstance(); // getting the object of Firebase
 
-        myRef.setValue("Hello, World!");
+        myRef.setValue("Starting Value");
 
     }
     public void login_doc_page(View v)
     {
         Intent i=new Intent(this,LoginAcc.class);
         startActivity(i);
+        finish();
     }
     public void login_pat_page(View v)
     {
         Intent i=new Intent(this,LoginAccPat.class);
         startActivity(i);
+        finish();
     }
 
 }
